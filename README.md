@@ -7,6 +7,7 @@
 </p>
 
 <p align="center">
+  <img src="https://img.shields.io/badge/Status-COMING%20SOON-orange" alt="Coming soon" />
   <img src="https://img.shields.io/badge/Platform-Android-3DDC84?logo=android&logoColor=white" alt="Android" />
   <img src="https://img.shields.io/badge/Language-Kotlin-7F52FF?logo=kotlin&logoColor=white" alt="Kotlin" />
   <img src="https://img.shields.io/badge/License-GPL--3.0-blue" alt="GPL-3.0 license" />
@@ -22,6 +23,9 @@
 
 > [!IMPORTANT]
 > Nekozumi is an independent community-maintained fork of [Usagi](https://github.com/UsagiApp/Usagi). It is not an official Usagi release and is not affiliated with or endorsed by the original developers.
+
+> [!NOTE]
+> **Nekozumi is coming soon!** The project is currently in development. Official builds and download information will be announced when they are ready.
 
 ---
 
@@ -98,9 +102,9 @@ Nekozumi does not host or distribute manga content. Content access depends on ex
 
 ## 🚧 Development Status
 
-**Community-driven development · Work in progress**
+<sub>COMING SOON · IN DEVELOPMENT</sub>
 
-Nekozumi is currently being developed from its Usagi foundation.
+Nekozumi is currently being developed from its Usagi foundation. The project is not yet ready for an official public release.
 
 Development priorities include:
 
@@ -116,9 +120,9 @@ Features and development priorities may change as the project evolves.
 
 ## 📥 Downloads
 
-Official Nekozumi builds will be published through the repository's [Releases](https://github.com/Nekomo-App/Nekozumi/releases) page when available.
+**Coming soon.** Official Nekozumi builds will be published through the repository's [Releases](https://github.com/Nekomo-App/Nekozumi/releases) page when available.
 
-No unofficial builds or third-party downloads are endorsed by the project.
+Please follow the repository for release announcements. No unofficial builds or third-party downloads are endorsed by the project.
 
 ## 🛠️ Development
 
@@ -141,7 +145,7 @@ You can help Nekozumi grow by:
 - Suggesting new features and improvements.
 - Contributing code and fixes.
 - Improving documentation.
-- Testing development builds.
+- Testing development builds when they become available.
 - Providing interface and design feedback.
 
 Please open an issue before starting major changes so development can be coordinated.
