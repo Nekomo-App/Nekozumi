@@ -1,163 +1,200 @@
-<div align="center">
+# Nekozumi
 
-<a href="#">
-    <img src="./.github/assets/icon.png" alt="Usagi" title="Usagi" width=20%>
-</a>
+<p align="center">
+  <strong>A community-driven manga reader, built for the Nekomo community.</strong>
+  <br />
+  An open-source Android manga reader focused on customization, extensibility, and a comfortable reading experience.
+</p>
 
-<br>
+<p align="center">
+  <img src="https://img.shields.io/badge/Platform-Android-3DDC84?logo=android&logoColor=white" alt="Android" />
+  <img src="https://img.shields.io/badge/Language-Kotlin-7F52FF?logo=kotlin&logoColor=white" alt="Kotlin" />
+  <img src="https://img.shields.io/badge/License-GPL--3.0-blue" alt="GPL-3.0 license" />
+  <img src="https://img.shields.io/badge/Community-Nekomo-purple" alt="Nekomo community" />
+</p>
 
-**[Usagi](#) is a free and open-source manga reader for Android™**
+<p align="center">
+  <a href="https://github.com/Nekomo-App/Nekozumi">Source Code</a> ·
+  <a href="https://github.com/Nekomo-App/Nekozumi/releases">Releases</a> ·
+  <a href="https://github.com/Nekomo-App/Nekozumi/issues">Report a Bug</a> ·
+  <a href="https://github.com/Nekomo-App">Nekomo Community</a>
+</p>
 
-![Android 5.0](https://img.shields.io/badge/android-5.0+-brightgreen) ![Downloads count](https://img.shields.io/github/downloads/UsagiApp/Usagi/total?color=1976d2) [![weblate](https://hosted.weblate.org/widgets/usagi/-/strings/svg-badge.svg)](https://hosted.weblate.org/engage/usagi/) [![Discord](https://img.shields.io/discord/1484655684879519885?color=5865f2&label=discord)](https://discord.gg/4AHskjwtj4) [![Telegram](https://img.shields.io/badge/chat-telegram-60ACFF?)](https://t.me/usagiapp)
+> [!IMPORTANT]
+> Nekozumi is an independent community-maintained fork of [Usagi](https://github.com/UsagiApp/Usagi). It is not an official Usagi release and is not affiliated with or endorsed by the original developers.
 
-### Download
+---
 
-<table>
-  <thead>
-    <tr>
-      <th align="center">GitHub</th>
-      <th align="center">F-Droid</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td align="center">
-        <a href="https://github.com/UsagiApp/Usagi/releases/latest/">
-          <img src="./.github/assets/badge_github.png" height="70" alt="Usagi on GitHub">
-        </a>
-      </td>
-      <td align="center">
-        <a href="https://f-droid.org/en/packages/org.draken.usagi/">
-          <img src="./.github/assets/badge_fdroid.png" height="70" alt="Usagi on F-Droid">
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <th align="center">Obtainium</th>
-      <th align="center">OpenAPK</th>
-    </tr>
-    <tr>
-      <td align="center">
-        <a href="https://apps.obtainium.imranr.dev/redirect?r=obtainium://add/https://github.com/UsagiApp/Usagi">
-          <img src="./.github/assets/badge_obtainium.png" height="70" alt="Usagi on Obtainium">
-        </a>
-      </td>
-      <td align="center">
-        <a href="https://www.openapk.net/usagi/org.draken.usagi/">
-          <img src="./.github/assets/badge_openapk.png" height="70" alt="Usagi on OpenAPK">
-        </a>
-      </td>
-    </tr>
-  </tbody>
-</table>
+## ✨ About
 
-### Features
+**Nekozumi** is a free and open-source manga reader for Android, developed as part of the Nekomo community ecosystem.
 
-<details>
-  <summary>Usagi's unique features</summary>
+Built upon the Usagi project, Nekozumi aims to provide a customizable, flexible, and extensible manga-reading experience while continuing to improve its interface, functionality, performance, and compatibility.
 
-<div align="left">
+The project builds upon an existing manga reader foundation while allowing the Nekomo community to introduce its own improvements, features, and ideas.
 
-#### All features from Usagi, include:
+Our goal is to maintain a capable manga reader that gives users greater control over their reading experience, library, extensions, and application settings.
 
-* Bypass internet firewalls with tunnels built into the app, expanding access to more content.
-* Integrate more new user interface styles (Modern, Classic, etc.)
-* Improve the ability to customize / read offline / downloaded manga.
-* The accompanying services are regularly updated (Sync server / client, bot, proxy, etc.)
-* Optimized for low-end devices / phones, continue to maintain / support for Android 5.0+
-* Providing access to content with external plugins / extensions.
-* Provides bug fixes for features that previously existed in original application.
-* Provides more options to customize the user interface (style, background, etc.).
+## ⭐ Features
 
-</div>
-</details>
+Nekozumi builds upon the existing Usagi feature set, with further improvements and additions planned as development progresses.
 
-<details>
-  <summary>Main features from original app</summary>
+### 📚 Manga Library
 
-<div align="left">
+- Search and discover manga through supported external sources.
+- Organize favorites into custom categories.
+- Maintain reading history and bookmarks.
+- Track reading progress.
+- Manage manga collections and personal libraries.
+- Support incognito reading.
 
-#### All features from original application, include:
+### 📖 Reading Experience
 
-* Search manga by name, genres and more filters
-* Favorites organized by user-defined categories
-* Reading history, bookmarks and incognito mode support
-* Download manga and read it offline. Third-party CBZ archives are also supported
-* Clean and convenient Material You UI, optimized for phones, tablets and desktop
-* Standard and Webtoon-optimized customizable reader, gesture support on reading interface
-* Notifications about new chapters with updates feed, manga recommendations (with filters)
-* Integration with manga tracking services: Shikimori, AniList, MyAnimeList, Kitsu
-* Password / fingerprint-protected access to the app
-* Automatically sync app data with other devices on the same account
-* Support for older devices running Android 6.0+
+- Customizable manga reader.
+- Standard page-by-page reading.
+- Webtoon and continuous vertical scrolling.
+- Reading gestures and navigation controls.
+- Adjustable reading preferences.
+- Offline manga downloads.
+- Support for local CBZ archives.
 
-</div>
-</details>
+### 🧩 Extensions & External Sources
 
-### In-App Screenshots
+- External plugin and extension support.
+- Access manga through compatible third-party sources.
+- Expand content availability through supported extensions.
+- Customizable source and extension experience.
 
-<table>
-  <tr>
-    <th width="33.33%" align="center">History</th>
-    <th width="33.33%" align="center">Explore</th>
-    <th width="33.33%" align="center">Details</th>
-  </tr>
-  <tr>
-    <td align="center" valign="top">
-      <img src="./fastlane/metadata/android/en-US/images/phoneScreenshots/1.png#gh-light-mode-only" alt="History screen with light mode on Google Pixel">
-      <img src="./fastlane/metadata/android/en-US/images/phoneScreenshots/4.png#gh-dark-mode-only" alt="History screen with dark mode on Google Pixel">
-    </td>
-    <td align="center" valign="top">
-      <img src="./fastlane/metadata/android/en-US/images/phoneScreenshots/2.png#gh-light-mode-only" alt="Explore screen with light mode on Google Pixel">
-      <img src="./fastlane/metadata/android/en-US/images/phoneScreenshots/5.png#gh-dark-mode-only" alt="Explore screen with dark mode on Google Pixel">
-    </td>
-    <td align="center" valign="top">
-      <img src="./fastlane/metadata/android/en-US/images/phoneScreenshots/3.png#gh-light-mode-only" alt="Details screen with dark mode on Google Pixel">
-      <img src="./fastlane/metadata/android/en-US/images/phoneScreenshots/6.png#gh-dark-mode-only" alt="Details screen with dark mode on Google Pixel">
-    </td>
-  </tr>
-</table>
+Nekozumi does not host or distribute manga content. Content access depends on external sources and plugins.
 
-### Localization
+### 🎨 Interface & Customization
 
-<a href="https://hosted.weblate.org/engage/usagi/">
-<img src="https://hosted.weblate.org/widget/usagi/horizontal-auto.png" alt="Translation status" />
-</a>
+- Material You-inspired interface.
+- Light and dark themes.
+- Customizable application appearance.
+- Flexible reader settings.
+- Interface improvements and usability enhancements.
+- A consistent experience across supported Android devices.
 
-**[Usagi](https://github.com/UsagiApp/Usagi) is localized in a number of different languages.**<br>
-**📌 If you would like to help improve these or add new languages,
-please head over to the [Weblate project page](https://hosted.weblate.org/engage/usagi/)**
+### 🔄 Tracking & Synchronization
 
-### Certificate fingerprints
+- AniList integration.
+- MyAnimeList integration.
+- Kitsu integration.
+- Shikimori integration.
+- Reading progress synchronization.
+- Cross-device synchronization where supported.
 
-<div align="left">
+### 🔔 Additional Features
 
-```plaintext
-01:B7:3E:12:A4:A8:C1:41:DB:4B:6C:0A:BE:17:A8:D3:5B:C7:DD:3A
-```
+- New chapter notifications.
+- Manga update feed.
+- Manga recommendations.
+- Password and fingerprint protection.
+- Offline reading support.
+- Performance and compatibility improvements.
 
-```plaintext
-4C:0B:D9:18:88:36:B7:27:9D:CF:91:12:3A:C9:9D:C4:F5:4F:E2:21:FB:66:FB:92:03:80:3D:16:7E:06:6F:C9
-```
+*Feature availability may vary depending on the application build, external services, and installed extensions.*
 
-</div>
+## 🚧 Development Status
 
-### License
+**Community-driven development · Work in progress**
 
-[![GNU GPLv3 Image](https://www.gnu.org/graphics/gplv3-127x51.png)](http://www.gnu.org/licenses/gpl-3.0.en.html)
+Nekozumi is currently being developed from its Usagi foundation.
 
-<div align="left">
+Development priorities include:
 
-All programs under our Yumemi™ project are free, open-source programs under the GPL license. You may copy, distribute, and modify the software as long as you keep track of changes/dates in the source files. Any modifications to the software, including code licensed under the GPL (via a compiler), must also be provided under the GPL license.
+- Establishing Nekozumi's own application identity and branding.
+- Improving the existing user interface and reading experience.
+- Expanding customization and application settings.
+- Maintaining and improving extension compatibility.
+- Improving library management and offline functionality.
+- Fixing bugs and improving application stability.
+- Introducing additional features requested by the community.
 
-</div>
+Features and development priorities may change as the project evolves.
 
-### Disclaimer
+## 📥 Downloads
 
-<div align="left">
+Official Nekozumi builds will be published through the repository's [Releases](https://github.com/Nekomo-App/Nekozumi/releases) page when available.
 
-The developer(s) of this application does not have any affiliation with the content providers available. If there is any content, it's provided by external libraries (added / imported by users); Usagi itself doesn't include any built-in content.
+No unofficial builds or third-party downloads are endorsed by the project.
 
-This application has been registered and authenticated with Google. We assume no legal liability for any build or version that does not use [the digital signature specified above](#certificate-fingerprints).
+## 🛠️ Development
 
-</div>
+Nekozumi is based on the original Usagi Android application and its open-source codebase.
+
+- **Primary language:** Kotlin
+- **Platform:** Android
+- **Build system:** Gradle
+- **Original project:** [Usagi](https://github.com/UsagiApp/Usagi)
+
+Build requirements and instructions will be documented as the Nekozumi development environment is finalized.
+
+## 🤝 Contributing
+
+Contributions from the community are welcome.
+
+You can help Nekozumi grow by:
+
+- Reporting bugs and compatibility issues.
+- Suggesting new features and improvements.
+- Contributing code and fixes.
+- Improving documentation.
+- Testing development builds.
+- Providing interface and design feedback.
+
+Please open an issue before starting major changes so development can be coordinated.
+
+[View Issues](https://github.com/Nekomo-App/Nekozumi/issues) · [View Repository](https://github.com/Nekomo-App/Nekozumi)
+
+## 🙏 Credits & Acknowledgements
+
+Nekozumi would not exist without the work of the original developers and open-source contributors.
+
+Special thanks to:
+
+- **[Usagi](https://github.com/UsagiApp/Usagi)** — Original project and primary codebase used for Nekozumi.
+- **[Kotatsu](https://github.com/KotatsuApp/Kotatsu)** — Earlier project inspiration and contributions to the manga-reader ecosystem.
+- **Nekomo Community** — Feedback, testing, development, and continued support.
+- All third-party library developers and contributors whose work helps make this project possible.
+
+All original copyright notices and applicable license requirements are respected.
+
+## ⚖️ License
+
+Nekozumi is distributed under the **GNU General Public License v3.0 (GPL-3.0)**, in accordance with the original project's licensing.
+
+You are free to:
+
+- Use the software.
+- Study and modify the source code.
+- Distribute original or modified versions.
+- Contribute improvements and modifications.
+
+Redistributions and modifications must comply with the applicable GPL-3.0 terms, including preserving required copyright and license notices and making corresponding source code available.
+
+See the [LICENSE](LICENSE) file for the complete license.
+
+## ⚠️ Disclaimer
+
+Nekozumi is an open-source manga reader application.
+
+- Nekozumi does not host, upload, store, or distribute manga content.
+- External content sources and plugins are independently maintained by their respective developers.
+- Nekozumi does not own or control third-party websites, services, or content providers.
+- All trademarks, copyrighted materials, and intellectual property belong to their respective owners.
+- Users are responsible for how they use the application and any external sources they choose to access.
+- Nekozumi is not affiliated with or endorsed by Usagi, Kotatsu, or any third-party content provider.
+
+For copyright concerns involving external content, please contact the relevant content provider or hosting service.
+
+---
+
+<p align="center">
+  <strong>Nekozumi</strong>
+  <br />
+  A Nekomo Community Project
+  <br /><br />
+  <sub>Built on open-source foundations. Developed with the community.</sub>
+</p>
